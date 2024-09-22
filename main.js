@@ -38,7 +38,7 @@ function adicionaLinha() {
 
     inputNomeAtividade.value = '';
     inputNotaAtividade.value = '';
-}
+
 
 function atualizaTabela() {
     const corpoTabela = document.querySelector( 'tbody');
@@ -48,7 +48,7 @@ function atualizaTabela() {
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal();
 
-    document.getElementById('media-final-valor').innerHTML = mediaFinal;
+    document.getElementById('media-final-valor').innerHTML = mediaFinal; to:Fixed:2;  
     document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
 }
 
