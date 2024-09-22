@@ -6,17 +6,16 @@
 }
 
 body {
-    background-color: #E7E7E7;
+    background-color: #e7e7e7;
     padding-top: 100px;
 }
 
 header {
     display: flex;
-    align-items: center;
-    margin-bottom: 40px;
+    align-items: center; /* para que eles fiquem centralizados na vertical*/
 }
 
-header img {
+header img { /*para ajustar o tamanho do logo*/
     height: 36px;
     margin-right: 16px;
 }
@@ -26,17 +25,18 @@ header h1 {
     font-weight: bold;
 }
 
-.container {
+.container { /* para centralizar tudo no meu da tela*/
     max-width: 960px;
     width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 
 form {
     display: flex;
     max-width: 640px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-between; /* p/ distribuir espaçamento entre os itens*/
     margin-bottom: 56px;
 }
 
@@ -49,12 +49,12 @@ form input {
 }
 
 form button {
-    background-color: #009432;
+    background-color: #009432; 
     color: #fff;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bold; 
     border: none;
-    cursor: pointer;
+    cursor: pointer;   
     padding: 8px;
 }
 
@@ -73,7 +73,7 @@ table td {
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 table td img {
@@ -88,10 +88,10 @@ table td img {
     border-radius: 3px;
 }
 
-.Aprovado {
-    background-color: #009432;
+.aprovado {
+    background-color:#009432;
 }
 
-.Reprovado {
+.reprovado {
     background-color: red;
 }
